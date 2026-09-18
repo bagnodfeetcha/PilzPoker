@@ -1,0 +1,1 @@
+const infoBtn=document.getElementById("infoBtn"),infoDialog=document.getElementById("infoDialog"),infoClose=document.getElementById("infoClose");infoBtn.addEventListener("click",()=>infoDialog.showModal());infoClose.addEventListener("click",()=>infoDialog.close());infoDialog.addEventListener("cancel",e=>{e.preventDefault();infoDialog.close()});
